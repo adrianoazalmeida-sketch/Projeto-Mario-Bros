@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mario Bros</title>
+
+
+</head>
+
+
+
+<body>
+    [<div class="mascara-formulario" onclick="EsconderForm()"></div>]
+    <DIV class="header">
+        <img src="img/cabeça do mario SEM FUNDO.png" alt="logo cabeça mario" class="logo-cabeca-mario" width="100px"
+            height="50px">
+
+
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+
+
+
+    </DIV>
+
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/traced-Logo Mario bros sem fundo.png" alt="Logo do Mario Bros" class="Logo-Principal">
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos</p>
+
+            <p>Você já se deparou com uma situação de emergência hidráulica?
+                Sabe aquele vazamento, aquela pagua fraca na torneira ou no chuveiro?
+                Os irmãos Mario tem a solução
+            </p>
+
+
+            <img src="./img/Logo Whatsapp sem fundo.png" alt="link para o whatsapp" class="logo-whats">
+
+            </a>
+
+            <button class="botao-entre-em-contato" onclick="MostrarForm()"> ENTRE EM CONTATO</button>
+
+        </div>
+        <div>
+            <img src="./img/traced-Mario e Luigi sem fundo.png" alt="logo mario e luigi"
+                class="Personagens-Mario-Luigi">
+
+        </div>
+
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/Video Mario Bross.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <form 
+        class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/xu1a8QQiK2l" 
+        method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="Nome">
+            <input placeholder="Seu telefone" type="tel" name="Telefone">
+            <textarea placeholder="Digite seu problema aqui..." name=" Duvida"></textarea>
+            <button class="Pedir-Orçamento" type="submit">Pedir Orçamento</button>
+
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+
+
+</html>

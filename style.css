@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.logo-principal {
+    height: 200px;
+}
+
+
+.logo-whats {
+    width: 50px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.botao-entre-em-contato {
+
+    color: rgb(239, 243, 240);
+    background-color: rgb(238, 6, 6);
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.botao-entre-em-contato:hover {
+
+    color: rgb(239, 243, 240);
+    background-color: rgb(55, 154, 201);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.botao-entre-em-contato a:hover {
+
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(238, 6, 6);
+    transition-duration: 0.5s;
+}
+
+
+
+a {
+    color: white;
+}
+
+.Personagens-Mario-Luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+
+
+}
+
+.caixa-principal {
+    width: 40%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0.9) 15%, rgba(0, 0, 0, 0.73) 33%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.73) 67%, rgba(0, 0, 0, 0.92) 85%, rgba(0, 0, 0, 1) 100%);
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header a {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header a:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+
+}
+
+.formulario-fale-conosco {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;
+    left: -295px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+
+
+}
+
+.Pedir-Orçamento {
+    color: rgb(239, 243, 240);
+    background-color: rgb(238, 6, 6);
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+input {
+    height: 40px;
+    width: 280px;
+    border-radius: 5;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea {
+    height: 100px;
+    width: 280px;
+    border-radius: 5;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #030303;
+    background: linear-gradient(90deg, rgba(3, 3, 3, 0.89) 0%, rgba(3, 3, 3, 0.75) 15%, rgba(3, 3, 3, 0.65) 33%, rgba(3, 3, 3, 0.54) 50%, rgba(3, 3, 3, 0.65) 67%, rgba(3, 3, 3, 0.75) 85%, rgba(3, 3, 3, 0.89) 100%);
+transition: visibility 1s ease-in-out;
+
+}
+
+/*
+Posição Final do Formulário
+
+left: 50%;
+transform: translate(-50%)
+
+*/
